@@ -4,7 +4,7 @@ import Inspect from "vite-plugin-inspect";
 import OpenIde from "vite-inspector";
 
 export default defineConfig({
-  base: "/spa-app/",
+  base: "/",
   plugins: [
     OpenIde({
       framework: "react",
