@@ -1,0 +1,12 @@
+.theme-switch__btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #35dc8e;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+
+  &:hover {
+    background-color: #35dc5e;
+  }
+}

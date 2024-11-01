@@ -1,0 +1,28 @@
+@use "./pages/home.scss";
+@use "./components/theme-switch.scss";
+@use "./components/header.scss";
+
+body {
+  &.light {
+    background-color: white;
+    color: black;
+  }
+
+  &.dark {
+    background-color: #333;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
