@@ -40,7 +40,7 @@ export default () => {
               className="todo__delete-button"
               onClick={() => handleDeleteTodo(index)}
             >
-              Удалить
+              Delete
             </button>
           </li>
         ))}
